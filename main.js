@@ -18,7 +18,6 @@ function openForm() {
   formAdd.className = "modal-overlay show";
   setTimeout(() => titleInput.focus(), 100);
 }
-openForm(); // Nhớ xoá "mở form sẵn" sau khi hoàn thành
 
 // Xử lí mở modal
 addBtn.onclick = openForm;
